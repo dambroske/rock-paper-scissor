@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Roboto', open-sans;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  header {
+    background: #6f5ab6;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 2em;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    width: 100%;
+  }
+
+  #results,
+  #game {
+    margin: 2rem auto;
+    width: 40rem;
+    max-width: 90%;
+    border: 1px solid #6f5ab6;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #6f5ab6;
+  }
+  
+  #results,
+  #game {
+    text-align: center;
+  }

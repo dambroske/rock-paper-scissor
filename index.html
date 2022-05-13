@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, paper or scissor!</title>
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/styles/app.css" />
+    <script src="./assets/scripts/app.js" defer></script>
+    <script src="./assets/scripts/controller.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>ROCK, PAPER OR SCISSOR! Make your choice</h1>
+    </header>
+    <section id="game">
+        <div id="player-actions">
+            <input type="image" src="./assets/public/rock.png" id="rock-btn" width="150" height="150">
+            <input type="image" src="./assets/public/paper.jpeg" id="paper-btn" width="150" height="150">
+            <input type="image" src="./assets/public/scissor.jpeg" id="scissor-btn" width="150" height="150">
+        </div>
+    </section>
+    <section id="results">
+        <h3><span id="who-wins"></span></h2>
+        <h2>Player: <span id="player-score">0</span></h2>
+        <h2>Computer: <span id="cpu-score">0</span></h2>
+    </section>
+</body>
+</html>
