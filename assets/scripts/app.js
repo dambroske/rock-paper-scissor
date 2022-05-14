@@ -75,12 +75,12 @@ function outputResult (winner, cpuChoice) {
     }
 }
 
-rockBtn.addEventListener('click', function() {
+rockBtn.addEventListener('click', () => {
      playGame(ROCK);
  });
-paperBtn.addEventListener('click', function() {
+paperBtn.addEventListener('click', () => {
     playGame(PAPER);
 });
-scissorBtn.addEventListener('click', function() {
+scissorBtn.addEventListener('click', () => {
     playGame(SCISSOR);
 });
